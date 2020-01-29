@@ -1,0 +1,11 @@
+### Emmbed Google map:
+	1) go to google map and bring embed code and paste markup file.
+
+
+
+### google map with wschool:
+	1) https://www.w3schools.com/graphics/google_maps_intro.asp
+	2) you sign in your google account
+	3) you need google api key
+	     i) https://developers.google.com/maps/documentation/geocoding/get-api-key
+	    ii) Google map cloud storage -->  APIs & Services > Credentials --> create a project --> create a api key

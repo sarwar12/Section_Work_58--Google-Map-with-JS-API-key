@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width-device-width, initial-scale=1" />
+	<title>QSP</title>
+	<!--CSS File-->
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/all.min.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/responsive.css" media="all" />
+</head>
+<body>
+	<!-- Google map add iframe embed code without js-->
+	<!-- <section class="section-padding"> 
+		<div class="container"> 
+			<div class="row"> 
+				<div class="col-md-12"> 
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.7982070268545!2d91.45462091450754!3d22.9944467849673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375341e20ab885c5%3A0x75e28ba46b2e2b4e!2sLaskarhat%20Post%20Office!5e0!3m2!1sbn!2sbd!4v1575964299326!5m2!1sbn!2sbd" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+				</div>
+			</div>
+		</div>
+	</section> -->
+	
+	<section class="section-padding"> 
+		<div class="container"> 
+			<div class="row"> 
+				<div class="col-md-12"> 
+					 
+					<div id="googleMap" style="width: 100%;height: 500px; background:#999;"></div>
+					<script>
+						function myMap() {
+						var mapProp= {
+						  center:new google.maps.LatLng(22.9944468,91.4546209),
+						  zoom:10,
+						};
+						var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+						}
+					</script>
+					
+			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD5xQlZpRy8jESghqHKJDhzxjBPtBdD9OI&callback=myMap"></script>
+			</div>
+		</div>
+	</section>
+	
+	
+	
+	
+	<!--JavaScript file-->
+	<script src="js/jquery-3.4.1.slim.min.js" type="text/javascript"></script>
+	<script src="js/popper.min.js" type="text/javascript"></script>
+	<script src="js/owl.carousel.min.js" type="text/javascript"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="js/active.js" type="text/javascript"></script>
+</body>
+</html>
